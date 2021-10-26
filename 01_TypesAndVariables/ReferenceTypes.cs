@@ -59,6 +59,42 @@ namespace _01_TypesAndVariables
             listOfStrings.Add("23221");
 
             //Queues
+            // First In First Out
+
+            Queue<string> firstInFirstOut = new Queue<string>();
+
+            // Works like standing in a line
+            firstInFirstOut.Enqueue("I'm first");
+            firstInFirstOut.Enqueue("I'm next");
+
+            // Dictionary
+            // Uses a key-value pair
+
+            Dictionary<int, string> keyAndValue = new Dictionary<int, string>();
+
+            keyAndValue.Add(3, "Throw");
+
+            string throwExample = keyAndValue[3];
+
+            Dictionary<string, string> webster = new Dictionary<string, string>();
+            webster.Add("Garden", "A place to grow plants");
+
+            string gardenDefinition = webster["Garden"];
+
+            // Other collections
+
+            SortedList<int, string> sortedKeyAndValue = new SortedList<int, string>();
+            HashSet<int> uniqueList = new HashSet<int>();
+            Stack<string> LastInFirstOut = new Stack<string>();
+
+        }
+
+        [TestMethod]
+        public void Classes()
+        {
+            Random rng = new Random();
+
+            int randomNumber = rng.Next();
         }
     }
 }
