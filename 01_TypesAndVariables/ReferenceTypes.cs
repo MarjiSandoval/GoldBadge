@@ -58,7 +58,7 @@ namespace _01_TypesAndVariables
             listOfStrings.Add("string");
             listOfStrings.Add("23221");
 
-            //Queues
+            //Queues, We will talk about queues
         }
     }
 }
