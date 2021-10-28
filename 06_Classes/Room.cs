@@ -35,14 +35,19 @@ namespace _06_Classes
         private double _height { get; set; }
         private double _width { get; set; }
         // Constructors
-        public Room() { }
+        public Room(double length, double width, double height) 
+        {
+            Length = length;
+            Width = width;
+            Height = height;
+        }
         // Properties
         public double Length
         {
             get { return _length; }
             private set
             {
-                if (value < MinLength || value > MaxLength) 
+                if (value < MinLength || value > MaxLength)
                 {
                     throw new ArgumentException($"The length should be between {MinLength} & {MaxLength} inclusive.");
                 }
@@ -55,8 +60,8 @@ namespace _06_Classes
             get { return _height; }
             private set
             {
-                if (value < MinHeight || value > MaxHeight) 
-                { 
+                if (value < MinHeight || value > MaxHeight)
+                {
                     throw new ArgumentException($"The height should be between {MinHeight} & {MaxHeight} inclusive.");
                 }
                 else
@@ -69,8 +74,8 @@ namespace _06_Classes
             get { return _width; }
             private set
             {
-                if (value < MinWidth || value > MaxWidth) 
-                { 
+                if (value < MinWidth || value > MaxWidth)
+                {
                     throw new ArgumentException($"The width should be between {MinWidth} & {MaxWidth} inclusive.");
                 }
                 else
@@ -82,6 +87,13 @@ namespace _06_Classes
         public double CalculateSquareFootage()
         {
             return Length * Width;
+        }
+
+        public double CalculateLateralSurfaceArea()
+        {
+            double lengthLSA = _length * _height * 2;
+            double widthLSA = _width * _height * 2;
+            return lengthLSA + widthLSA;
         }
     }
 }
