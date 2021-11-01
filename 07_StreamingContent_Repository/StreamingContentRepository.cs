@@ -74,7 +74,7 @@ namespace _07_StreamingContent_Repository
 
         // Challenge, make these repo methods and test them
 
-        // Delete By Content Id
+        // Delete By Content Title
         // Get all movies of a certain maturity rating
         // Get all family friendly movies
         // Get all movies with in a star rating range. (So I want all movies from 4-7 for ex)
