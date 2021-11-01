@@ -71,5 +71,78 @@ namespace _07_StreamingContentRepository1
             bool deleteResult = _contentDirectory.Remove(existingContent);
             return deleteResult;
             }
+
+        //challenge, make these ropo methods and test them
+
+        //Delete By Content Title
+
+        public bool DeleteByTitle(string title)
+        {
+            var content = GetContentByTitle(title);
+            bool isSuccessful = _contentDirectory.Remove(content);
+            return isSuccessful;
+        }
+            
+
+        //Get all movies of a certain maturity rating
+
+        public List<StreamingContent> GetAllGRatedMovies()
+        {
+            List<StreamingContent> contents = new List<StreamingContent>();
+            foreach (StreamingContent item in _contentDirectory)
+            {
+                if (item.MaturityRating == MaturityRating.G) 
+                {
+                    contents.Add(item);
+                }
+
+            }
+            return contents;
+        }
+        //get all family friendly movies
+        public List<StreamingContent> GetAllFamilyFriendlyMovies()
+        {
+            //This is my empty list of streaming content
+
+            List<StreamingContent> content = new List<StreamingContent>();
+
+            //I'm going to loop through my database
+            //In this case its my _contentDirectory
+            //For each streaming content type named item
+            //inside of this _contentDirectory
+            foreach (StreamingContent item in _contentDirectory)
+            {
+                //if such item is family friendly
+                if (item.IsFamilyFriendly == true)
+                {
+                    //add it to my empty list
+                    content.Add(item);
+
+                }
+            }
+            // after the list is filled up, I'll return the list
+            return content;
+        }
+
+        //get all movies with in a star rating range. (So I want all movies from 4-7 for example)
+
+        public List<StreamingContent> GetMovies()
+        {
+            List<StreamingContent> content = new List<StreamingContent>();
+
+            foreach (StreamingContent item in _contentDirectory)
+            {
+                if (item.StarRating >=4 && item.StarRating <= 7)
+                {
+                    content.Add(item);
+                }
+            }
+            return content;
+            
+
+        }
+
+            
+
     }
 }

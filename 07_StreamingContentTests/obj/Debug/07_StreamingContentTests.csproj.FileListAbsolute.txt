@@ -13,3 +13,4 @@ C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals
 C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\07_StreamingContentTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\07_StreamingContentTests\obj\Debug\07_StreamingContentTests.dll
 C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\07_StreamingContentTests\obj\Debug\07_StreamingContentTests.pdb
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\07_StreamingContentTests\obj\Debug\07_StreamingContentTests.csproj.CopyComplete
