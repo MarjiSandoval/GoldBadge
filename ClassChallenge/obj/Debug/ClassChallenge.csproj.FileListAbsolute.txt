@@ -1,0 +1,26 @@
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\Gold Badge\CSharpFundamentals\ClassChallenge\obj\Debug\ClassChallenge.csproj.AssemblyReference.cache
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\Gold Badge\CSharpFundamentals\ClassChallenge\obj\Debug\ClassChallenge.csproj.CoreCompileInputs.cache
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\Gold Badge\CSharpFundamentals\ClassChallenge\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\Gold Badge\CSharpFundamentals\ClassChallenge\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\Gold Badge\CSharpFundamentals\ClassChallenge\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\Gold Badge\CSharpFundamentals\ClassChallenge\bin\Debug\ClassChallenge.dll
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\Gold Badge\CSharpFundamentals\ClassChallenge\bin\Debug\ClassChallenge.pdb
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\Gold Badge\CSharpFundamentals\ClassChallenge\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\Gold Badge\CSharpFundamentals\ClassChallenge\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\Gold Badge\CSharpFundamentals\ClassChallenge\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\Gold Badge\CSharpFundamentals\ClassChallenge\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\Gold Badge\CSharpFundamentals\ClassChallenge\obj\Debug\ClassChallenge.dll
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\Gold Badge\CSharpFundamentals\ClassChallenge\obj\Debug\ClassChallenge.pdb
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\ClassChallenge\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\ClassChallenge\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\ClassChallenge\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\ClassChallenge\bin\Debug\ClassChallenge.dll
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\ClassChallenge\bin\Debug\ClassChallenge.pdb
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\ClassChallenge\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\ClassChallenge\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\ClassChallenge\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\ClassChallenge\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\ClassChallenge\obj\Debug\ClassChallenge.csproj.AssemblyReference.cache
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\ClassChallenge\obj\Debug\ClassChallenge.csproj.CoreCompileInputs.cache
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\ClassChallenge\obj\Debug\ClassChallenge.dll
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\ClassChallenge\obj\Debug\ClassChallenge.pdb

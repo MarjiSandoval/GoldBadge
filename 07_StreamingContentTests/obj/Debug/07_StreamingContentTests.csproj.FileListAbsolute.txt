@@ -1,0 +1,2 @@
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\07_StreamingContentTests\obj\Debug\07_StreamingContentTests.csproj.AssemblyReference.cache
+C:\Users\momma\OneDrive\Desktop\ElevenFiftyProjects\GoldBadge\CSharpFundamentals\07_StreamingContentTests\obj\Debug\07_StreamingContentTests.csproj.CoreCompileInputs.cache
