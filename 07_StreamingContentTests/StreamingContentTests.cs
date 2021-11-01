@@ -42,5 +42,10 @@ public class StreamingContentTests
         Assert.AreEqual(expected, actual);
 
     }
+    [TestMethod]
+    public void MyTestMethod()
+    {
+
+    }
 
 }
