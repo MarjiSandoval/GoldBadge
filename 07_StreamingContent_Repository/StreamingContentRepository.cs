@@ -27,11 +27,13 @@ namespace _07_StreamingContent_Repository
         }
 
         // Read
+        // Get all
         public List<StreamingContent> GetContents()
         {
             return _contentDirectory;
         } 
 
+        // Get single
         public StreamingContent GetContentByTitle(string title)
         {
             foreach(StreamingContent content in _contentDirectory)
@@ -41,11 +43,35 @@ namespace _07_StreamingContent_Repository
                     return content;
                 }
             }
-
             return null;
         }
 
         // Update
+        public bool UpdateExistingContentByTitle(string originalTitle,StreamingContent content)
+        {
+            // Breakpoint through this
+            StreamingContent oldContent = GetContentByTitle(originalTitle);
+
+            if (oldContent != null)
+            {
+                oldContent.Title = content.Title;
+                oldContent.Description = content.Description;
+                oldContent.StarRating = content.StarRating;
+                oldContent.MaturityRating = content.MaturityRating;
+                oldContent.TypeOfGenre = content.TypeOfGenre;
+
+                return true;
+            }
+            else
+                return false;
+        }
+
         // Delete
+        public bool DeleteExistingContent(StreamingContent existingContent)
+        {
+            bool deleteResult = _contentDirectory.Remove(existingContent);
+            return deleteResult;
+        }
+
     }
 }
