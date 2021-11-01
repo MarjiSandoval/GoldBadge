@@ -71,5 +71,16 @@ namespace _07_StreamingContent_Tests
             // Assert
             Assert.IsTrue(updateResult);
         }
+
+        [TestMethod]
+        public void DeleteExistingContent_ShouldReturnTrue()
+        {
+            // Arrange
+            StreamingContent content = _repo.GetContentByTitle("Rubber");
+            // Act
+            bool removeResult = _repo.DeleteExistingContent(content);
+            // Assert
+            Assert.IsTrue(removeResult);
+        }
     }
 }

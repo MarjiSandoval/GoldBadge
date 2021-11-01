@@ -49,7 +49,6 @@ namespace _07_StreamingContent_Repository
         // Update
         public bool UpdateExistingContentByTitle(string originalTitle,StreamingContent content)
         {
-            // Breakpoint through this
             StreamingContent oldContent = GetContentByTitle(originalTitle);
 
             if (oldContent != null)
@@ -73,5 +72,11 @@ namespace _07_StreamingContent_Repository
             return deleteResult;
         }
 
+        // Challenge, make these repo methods and test them
+
+        // Delete By Content Id
+        // Get all movies of a certain maturity rating
+        // Get all family friendly movies
+        // Get all movies with in a star rating range. (So I want all movies from 4-7 for ex)
     }
 }
