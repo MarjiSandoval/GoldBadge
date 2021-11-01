@@ -28,7 +28,7 @@ namespace _07_StreamingContent_Tests
         [DataRow(MaturityRating.TV_G,true)]
         [DataRow(MaturityRating.R,false)]
         [DataRow(MaturityRating.TV_MA, false)]
-        public void SetMaturityRating_ShouldGetCorrectIsFamilyFriendlyRating(MaturityRating maturity,bool expectedFamilyFriendly)
+        public void SetMaturityRating_ShouldGetCorrectIsFamilyFriendlyRating( MaturityRating maturity,bool expectedFamilyFriendly)
         {
             // Triple A Paradigm
 
