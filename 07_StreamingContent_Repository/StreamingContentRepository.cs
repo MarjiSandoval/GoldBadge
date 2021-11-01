@@ -31,14 +31,14 @@ namespace _07_StreamingContent_Repository
         public List<StreamingContent> GetContents()
         {
             return _contentDirectory;
-        } 
+        }
 
         // Get single
         public StreamingContent GetContentByTitle(string title)
         {
-            foreach(StreamingContent content in _contentDirectory)
+            foreach (StreamingContent content in _contentDirectory)
             {
-                if(content.Title.ToLower() == title.ToLower())
+                if (content.Title.ToLower() == title.ToLower())
                 {
                     return content;
                 }
@@ -47,7 +47,7 @@ namespace _07_StreamingContent_Repository
         }
 
         // Update
-        public bool UpdateExistingContentByTitle(string originalTitle,StreamingContent content)
+        public bool UpdateExistingContentByTitle(string originalTitle, StreamingContent content)
         {
             StreamingContent oldContent = GetContentByTitle(originalTitle);
 
@@ -75,8 +75,50 @@ namespace _07_StreamingContent_Repository
         // Challenge, make these repo methods and test them
 
         // Delete By Content Title
+        public bool DeleteExistingContentByTitle(string title)
+        {
+            return DeleteExistingContent(GetContentByTitle(title));
+        }
+
+
         // Get all movies of a certain maturity rating
+        public List<StreamingContent> GetByMaturityRating(MaturityRating rating)
+        {
+            List<StreamingContent> foundContent = new List<StreamingContent>();
+            foreach (StreamingContent content in _contentDirectory)
+            {
+                if (content.MaturityRating == rating)
+                {
+                    foundContent.Add(content);
+                }
+            }
+            return foundContent;
+        }
         // Get all family friendly movies
+        public List<StreamingContent> GetFamilyFriendlyMovies()
+        {
+            List<StreamingContent> foundContent = new List<StreamingContent>();
+            foreach (StreamingContent content in _contentDirectory)
+            {
+                if (content.IsFamilyFriendly == true)
+                {
+                    foundContent.Add(content);
+                }
+            }
+            return foundContent;
+        }
         // Get all movies with in a star rating range. (So I want all movies from 4-7 for ex)
+        public List<StreamingContent> GetByStarRatingRange(double lowerBound, double upperBound)
+        {
+            List<StreamingContent> foundContent = new List<StreamingContent>();
+            foreach (StreamingContent content in _contentDirectory)
+            {
+                if (content.StarRating >= lowerBound && content.StarRating <= upperBound)
+                {
+                    foundContent.Add(content);
+                }
+            }
+            return foundContent;
+        }
     }
 }
