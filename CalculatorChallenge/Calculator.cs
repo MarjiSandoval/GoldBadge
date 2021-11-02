@@ -119,19 +119,23 @@ namespace CalculatorChallenge
             }
             return startingVal;
         }
-        //if you want to take the fraction approach https://www.codeproject.com/articles/11971/fractions-in-c
+        //if you want to take the fraction approach: https://www.codeproject.com/articles/11971/fractions-in-c
 
         public string Add_FractionFormat(decimal a, decimal b)
         {
-            decimal value =a +_ b
+            decimal value = a + b;
             string toFraction = $"{a}/{b}";
             return toFraction;
-
-
         }
         public string Percent(double a, double b)
         {
             double c = a / b;
+            c *= 100;
+            return $"{c}%";
+        }
+        public string Percent(int a, int b)
+        {
+            int c = a / b;
             c *= 100;
             return $"{c}%";
         }
