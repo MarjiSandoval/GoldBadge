@@ -12,7 +12,9 @@ namespace _06B_Classes_Inheritance
         private Cat _cat;
         private TabbyCat _tabbyCat;
         private Liger _liger;
-
+        private Sloth _sloth;
+        private Megatherium _mSloth;
+        private Dragon _dragon;
 
         [TestInitialize]
         public void Init()
@@ -20,6 +22,9 @@ namespace _06B_Classes_Inheritance
             _cat = new Cat();
             _tabbyCat = new TabbyCat();
             _liger = new Liger();
+            _sloth = new Sloth();
+            _mSloth = new Megatherium();
+            _dragon = new Dragon();
         }
 
         [TestMethod]
@@ -48,6 +53,28 @@ namespace _06B_Classes_Inheritance
         {
             _liger.Move();
             _liger.MakeSound();
+        }
+
+        [TestMethod]
+        public void Playground_Sloth()
+        {
+            _sloth.MakeSound();
+            _sloth.Move();
+
+            _mSloth.Move();
+            _mSloth.MakeSound();
+        }
+
+        [TestMethod]
+        public void Playground_Dragon()
+        {
+            _dragon.DietType = DietType.Herbivore;
+            _dragon.Eat(_liger);
+
+            Dragon drag = new Dragon(false, false, true, DietType.Herbivore);
+            Console.WriteLine(drag.HasFur);
+            Console.WriteLine(drag.IsKiller);
+            Console.WriteLine(drag.DietType);
         }
     }
 }

@@ -51,6 +51,8 @@
   <ItemGroup>
     <Compile Include="Animals\Animal.cs" />
     <Compile Include="Animals\Cat.cs" />
+    <Compile Include="Animals\Dragon.cs" />
+    <Compile Include="Animals\Sloth.cs" />
     <Compile Include="InheritanceTesting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitTest2.cs" />
