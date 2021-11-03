@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00_MorningChallenges", "00_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06B_Classes_Inheritance", "06B_Classes_Inheritance\06B_Classes_Inheritance.csproj", "{7A61988E-846E-44B2-8255-49A872DE8BC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_StreamingContent_Inheritence", "08_StreamingContent_Inheritence\08_StreamingContent_Inheritence.csproj", "{CB8AE665-E9AA-4004-901D-460CA5F43F4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{7A61988E-846E-44B2-8255-49A872DE8BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A61988E-846E-44B2-8255-49A872DE8BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A61988E-846E-44B2-8255-49A872DE8BC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB8AE665-E9AA-4004-901D-460CA5F43F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB8AE665-E9AA-4004-901D-460CA5F43F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB8AE665-E9AA-4004-901D-460CA5F43F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB8AE665-E9AA-4004-901D-460CA5F43F4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
