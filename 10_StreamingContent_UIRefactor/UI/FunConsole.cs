@@ -35,9 +35,9 @@ namespace _10_StreamingContent_UIRefactor.UI
         {
             string input = Console.ReadLine();
             Console.WriteLine("Umm......");
-            Thread.Sleep(100);
+            Thread.Sleep(1000);
             Console.WriteLine("You sure...?");
-            Thread.Sleep(100);
+            Thread.Sleep(1000);
             Console.WriteLine("...okay");
             return input;
         }

@@ -1,10 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace _06B_Classes_Inheritance
+namespace _00_MorningChallenges.KomodoInsurance
 {
     [TestClass]
-    public class UnitTest2
+    public class UnitTest1
     {
         [TestMethod]
         public void TestMethod1()

@@ -12,7 +12,8 @@ namespace _10_StreamingContent_UIRefactor
         static void Main(string[] args)
         {
             // IConsole console = new RealConsole();
-            IConsole console = new FunConsole();
+            //IConsole console = new FunConsole();
+            IConsole console = new SlowConsole();
             ProgramUI ui = new ProgramUI(console);
             ui.Run();
         }
