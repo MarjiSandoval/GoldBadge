@@ -60,14 +60,14 @@ namespace _06B_Classes_Inheritance.Animals
                 Console.WriteLine("I am swimming!");
             }
         }
-        public class IceHydra : Hydra
+        public class IceHydra : Hydra, IIceHydra
         {
             public void IceBlaster()
             {
                 Console.WriteLine($"{GetType().Name} is using the IceBlaster!");
             }
         }
-        public class FireHydra : Hydra
+        public class FireHydra : Hydra, IFireHydra
         {
             public void BombsAway()
             {
@@ -78,11 +78,27 @@ namespace _06B_Classes_Inheritance.Animals
                 Console.WriteLine("Rock-A-Bye-Baby!");
             }
         }
-        public class MicroHydra : IceHydra 
+        public class MicroHydra : Hydra, IIceHydra, IFireHydra
         {
-            //we want this objec to have FireHydra and Hydra stuff
-            //but they are two different instances of one another
+            public void BombsAway()
+            {
+                throw new NotImplementedException();
+            }
 
+            //we want this object to have FireHydra and Hydra stuff
+            //but they are two different instances of one another
+            public void IceBlaster()
+            {
+                throw new NotImplementedException();
+            }
+        }
+        public interface IIceHydra
+        {
+            void IceBlaster();
+        }
+        public interface IFireHydra
+        {
+            void BombsAway();
         }
     }
 }

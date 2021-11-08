@@ -36,5 +36,32 @@ namespace _08_StreamingContent_Inheritence
         }
 
 
+        public List<Show> GetAllShows()
+        {
+            List<Show> allShows = new List<Show>();
+            foreach (StreamingContent content in _contentDirectory)
+            {
+                if (content is Show)
+                {
+                allShows.Add((Show)content);
+
+                }
+            }
+            return allShows;
+        }
+
+        public List<Movie> GetAllMovies()
+        {
+            List<Movie> allMovies = new List<Movie>();
+            foreach (StreamingContent content in _contentDirectory)
+            {
+                if (content is Movie)
+                {
+                    allMovies.Add((Movie)content);
+                }
+            }
+            return allMovies;
+        }
+        
     }
 }

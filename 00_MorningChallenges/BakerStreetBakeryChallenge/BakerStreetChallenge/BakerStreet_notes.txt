@@ -1,0 +1,56 @@
+﻿new console application called BakerStreetBakery. (skip)
+
+The app will need classes to handle orders, products, and a repository of orders.
+
+The client has specified that she organizes her products based on type - Bread, Cake, Pastry, Pies.
+
+Each Product will have an associated price per batch that depends on the type.
+
+The prices are $500.01 for bread
+$2000 for cake
+$200.10 for pasteries
+and $851.5 for pies. 
+
+Each Order will only have one associated product,
+but also a number of batches, 
+an order number, 
+a total cost, =>The cost of each order is $100, plus the total cost of the batches in the order 
+(base price per batch * number of batches)
+and a customer name.
+
+
+
+(Don't forget about your constructors)
+
+ 
+
+Once you have created these classes, 
+create a class for your repository called OrderRepository.
+
+We need methods to add an order to the list,
+get the list, 
+remove from list,
+and print the contents of the list.
+
+ 
+
+Once your Repository is set up, 
+create a Unit Test project called BakerStreetBakery_Tests. Test each of the four repo methods.
+
+ -----------------------------------------------------------------------------------------------------------
+
+If you get the Repository built and tested, next we will want to build out a ProgramUI.
+
+Create a method named Run(). 
+
+Go back to the Program class and create an instance of ProgramUI in the static void main method and call the Run method. 
+
+ 
+
+Ex: ProgramUI program = new ProgramUI();
+
+    program.Run();
+
+ 
+
+Write a RunMenu method for Mrs. Hudson to use to handle orders. Use a numbered menu like we used for the StreamingContentRepository

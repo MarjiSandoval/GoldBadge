@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2B75FDBD-0160-4EF3-9475-20365D9F9D2B}</ProjectGuid>
+    <ProjectGuid>{E7BA8B8D-877B-4C3E-98FF-0FE00D4996F4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_07_StreamingContent_Tests</RootNamespace>
-    <AssemblyName>07_StreamingContent_Tests</AssemblyName>
+    <RootNamespace>_09_InterfacesIntroduction</RootNamespace>
+    <AssemblyName>09_InterfacesIntroduction</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -49,23 +49,13 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StreamingContentTests.cs" />
+    <Compile Include="Fruits\FruitClasses.cs" />
+    <Compile Include="Fruits\IFruit.cs" />
+    <Compile Include="IFruitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StreamingContentRepositoryTests.cs" />
-    <Compile Include="StreaminContentInheritenceTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\07_StreamingContent_Repository\07_StreamingContent_Repository.csproj">
-      <Project>{E19C2B75-CD83-4CC8-826B-175689FCE475}</Project>
-      <Name>07_StreamingContent_Repository</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\08_StreamingContent_Inheritence\08_StreamingContent_Inheritence.csproj">
-      <Project>{CB8AE665-E9AA-4004-901D-460CA5F43F4E}</Project>
-      <Name>08_StreamingContent_Inheritence</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

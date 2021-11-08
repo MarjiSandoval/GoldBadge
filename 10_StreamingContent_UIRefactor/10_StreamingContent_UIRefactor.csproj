@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CED9CC25-0158-4047-AE01-B44466686BD1}</ProjectGuid>
+    <ProjectGuid>{0D959843-63E7-4D2A-AA07-7E361030D7CF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_07_StreamingContentConsole</RootNamespace>
-    <AssemblyName>07_StreamingContentConsole</AssemblyName>
+    <RootNamespace>_10_StreamingContent_UIRefactor</RootNamespace>
+    <AssemblyName>10_StreamingContent_UIRefactor</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,10 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\FunConsole.cs" />
+    <Compile Include="UI\IConsole.cs" />
     <Compile Include="UI\ProgramUI.cs" />
+    <Compile Include="UI\RealConsole.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -56,7 +59,7 @@
       <Name>07_StreamingContent_Repository</Name>
     </ProjectReference>
     <ProjectReference Include="..\08_StreamingContent_Inheritence\08_StreamingContent_Inheritence.csproj">
-      <Project>{CB8AE665-E9AA-4004-901D-460CA5F43F4E}</Project>
+      <Project>{cb8ae665-e9aa-4004-901d-460ca5f43f4e}</Project>
       <Name>08_StreamingContent_Inheritence</Name>
     </ProjectReference>
   </ItemGroup>
