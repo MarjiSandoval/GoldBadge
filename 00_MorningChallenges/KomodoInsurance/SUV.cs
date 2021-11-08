@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace _00_MorningChallenges.KomodoInsurance
 {
-    public class SportsCar : Vehicle
+    public class SUV : Vehicle 
     {
-        public SportsCar(string make, string model, string color) :base(make, model, color)
+        public SUV(string make, string model, string color) :base(make, model, color)
         {
-            VehicleType = VehicleType.SportsCar;
+            VehicleType = VehicleType.SUV;
         }
     }
 }

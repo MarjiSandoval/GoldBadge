@@ -8,10 +8,12 @@ namespace _00_MorningChallenges.KomodoInsurance
 {
     public interface IVehicle
     {
-        string Color();
-        string Model();
-        string Make();
-        bool IsRunning();
-        bool IsMoving();
+        string Color { get; set; }
+        string Model { get; set; }
+        string Make { get; set; }
+        void TurnOn();
+        void TurnOff();
+
+        void Drive();
     }
 }

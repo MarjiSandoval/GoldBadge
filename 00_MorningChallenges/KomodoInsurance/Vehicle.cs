@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace _00_MorningChallenges.KomodoInsurance
 {
     public enum VehicleType { Sedan, Truck, Van, Motorcycle, SUV, SportsCar}
-    public class Vehicle
+    public class Vehicle : IVehicle
     {
         public Vehicle() { }
         public Vehicle(string make, string model, string color)
@@ -23,21 +23,22 @@ namespace _00_MorningChallenges.KomodoInsurance
         public string Make { get; set; }
         public bool IsRunning { get; set; }
         public bool IsMoving { get; set; }
+        public VehicleType VehicleType { get; protected set; }
         public void TurnOn()
         {
             IsRunning = true;
-            Console.WriteLine("You started the enging");
+            Console.WriteLine($"You started the {Model}.");
         } 
 
         public void TurnOff()
         {
             IsRunning = false;
-            Console.WriteLine("You turnd the engine off");
+            Console.WriteLine($"You turnd the {Model} off");
         }
         public void Drive()
         {
             IsMoving = true;
-            Console.WriteLine("You are driving the vehicle");
+            Console.WriteLine($"You are driving the {Make} {Model}");
         }
         
 

@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Interfaces_WorkingWith_D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_StreamingContent_UIRefactor", "10_StreamingContent_UIRefactor\10_StreamingContent_UIRefactor.csproj", "{0D959843-63E7-4D2A-AA07-7E361030D7CF}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "W3D1ChallengeKomodoInsurance", "W3D1ChallengeKomodoInsurance\W3D1ChallengeKomodoInsurance.vbproj", "{D4888582-8B35-4C7E-BD67-92CB94404EA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickyAndMortyGame", "RickyAndMortyGame\RickyAndMortyGame.csproj", "{1B1F1D69-226F-4AC4-B4B9-23ADB45A6853}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{0D959843-63E7-4D2A-AA07-7E361030D7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D959843-63E7-4D2A-AA07-7E361030D7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D959843-63E7-4D2A-AA07-7E361030D7CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4888582-8B35-4C7E-BD67-92CB94404EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4888582-8B35-4C7E-BD67-92CB94404EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4888582-8B35-4C7E-BD67-92CB94404EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4888582-8B35-4C7E-BD67-92CB94404EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B1F1D69-226F-4AC4-B4B9-23ADB45A6853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B1F1D69-226F-4AC4-B4B9-23ADB45A6853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B1F1D69-226F-4AC4-B4B9-23ADB45A6853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B1F1D69-226F-4AC4-B4B9-23ADB45A6853}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
